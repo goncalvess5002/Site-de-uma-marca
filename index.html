@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <style>
-        .flex-container {
+      .flex-container {
+        justify-content: center;
         display: flex;
         flex-direction: row;
         text-align: center;
-        line-height: 5px;
-        font-size: 10px;        
+        margin: 0px;
+        line-height: 10px;
+        font-size: 07px;
       }
-      .backgoudP{
-        background-color: pink;
-        font-size: 50px;
+
+      .agua > div {
+        background-color: rgb(255, 2, 44);
+        width: 1200px;
+        margin-top: 30px;
         text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
 
+      .guitarras > div {
+        display: flex;
+      }
 
-      </style>
-</head>
-<body>
-    <div class="flex-container">
-        <img style="
+      .flex-container-catalog-guitars {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px;
+        margin: 10px;
+        background-color: rgb(6, 6, 6);
+      }
+      .guitarItemPrice {
+        margin: 20px;
+        padding: 150px;
         width: 150px;
-        " src="https://th.bing.com/th?id=OIP.SKrhw7RnzKw-IcMHKmY89QHaE3&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="">
+        background-color: rgb(255, 0, 0);
+      }
 
-    <h2>As melhores guitarras</h2>
-</div>
-       <div class="flex-container">
-        <p class="backgoudP">
-        As guitarras Fender
-    </p>
-</div> 
-<img style="
-width: 200px;
-" 
-src="https://www.bing.com/th?id=OIP.W86owS0Dl7GHZUZTWtbArQHaLx&w=150&h=239&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="">
-    
-</body>
+      .navBar{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 0, 0);
+      }
+
+      .navBar>div {
+            margin-top: 0px;
+            padding: 20px;
+            background-color: black;
+        }
+     
+    </style>
+  </head>
+  <body>
+    <div class="agua"></div>
+
+    <div class="flex-container">
+      <img
+        style="width: 70px; margin: 10px;"
+        src="https://th.bing.com/th?id=OIP.SKrhw7RnzKw-IcMHKmY89QHaE3&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+        alt=""
+      />
+
+      <h2>As melhores guitarras</h2>
+     
+    </div>
+    <div class="navBar">
+      <div><a href="index.html">Início</a></div>
+      <div><a href="historia">História</a></div>
+      <div><a href="contato.html">Guitarras</a></div>
+    </div>
+
+    <div class="agua">
+      <div>Promoções Fender</div>
+    </div>
+
+    <div class="flex-container-catalog-guitars">
+ 
+  </body>
 </html>
