@@ -32,10 +32,12 @@
 
       .flex-container-catalog-guitars {
         display: flex;
-        flex-wrap: wrap;
-        padding: 100px;
+        justify-content: space-between;
+        border: solid;
+        border-width: 10px;
+        padding: 15px;
         margin: 10px;
-        background-color: rgb(6, 6, 6);
+        background-color: rgb(46, 42, 42);
       }
       .guitarItemPrice {
         margin: 20px;
@@ -44,18 +46,21 @@
         background-color: rgb(255, 0, 0);
       }
 
-      .navBar{
+      .navBar {
         display: flex;
         justify-content: center;
         background-color: rgb(255, 0, 0);
       }
 
-      .navBar>div {
-            margin-top: 0px;
-            padding: 20px;
-            background-color: black;
-        }
-     
+      .navBar > div {
+        margin-top: 0px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+      }
+      #text-guitar-sale{
+        margin-left: 20px;
+      }
+
     </style>
   </head>
   <body>
@@ -63,13 +68,12 @@
 
     <div class="flex-container">
       <img
-        style="width: 70px; margin: 10px;"
+        style="width: 70px; margin: 10px"
         src="https://th.bing.com/th?id=OIP.SKrhw7RnzKw-IcMHKmY89QHaE3&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
         alt=""
       />
 
       <h2>As melhores guitarras</h2>
-     
     </div>
     <div class="navBar">
       <div><a href="index.html">Início</a></div>
@@ -82,6 +86,18 @@
     </div>
 
     <div class="flex-container-catalog-guitars">
- 
+      <div  style="flex-grow: 2">
+
+        <img
+          style="height: 600px ;"
+          src="https://i.pinimg.com/originals/a6/ee/03/a6ee032dfa1727822aa7d39d023443de.jpg"
+          alt=""
+        />
+      </div>
+
+      <div  style="flex-grow: 2"; id="text-guitar-sale">
+        <h1>A Fender Stratocaster é um modelo de guitarra elétrica desenhada por Leo Fender, George Fullerton e Freddie Tavares em 1954, é fabricada continuamente até os dias de hoje, sendo uma das guitarras mais famosas da história</h1>
+      </div>
+    </div>
   </body>
 </html>
