@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,15 @@
     <title>guitarras</title>
 
     <style>
-
-.flex-container {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin: 10px;
-        line-height: 10px;
-        font-size: 07px;}
+        .image {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+            line-height: 10px;
+            font-size: 07px;
+        }
 
 
         .navBar {
@@ -31,72 +33,98 @@
         }
 
         .flex-container {
+
             justify-content: center;
             display: flex;
             flex-wrap: wrap;
-            background-color: rgb(255, 255, 255);
+            margin: 20px;
+            background-color: rgb(40, 39, 39);
+            border: solid;
+            border-width: 10px;
+            border-color: rgb(0, 0, 0);
         }
 
-        .flex-container>div {
-            background-color: #ff0000;
-            padding: 30px;
-            width: 155px;
-            margin: 10px;
+        .flex-container-guitar {
+        
+            background-color: #040404;
+            padding: 10px;
+            margin: 20px;
             text-align: center;
             line-height: 40px;
             font-size: 20px;
+        }
+
+        .flex-container-guitar>img {
+            max-width: 300px ;
+            min-width: 300px ;
+
         }
     </style>
 </head>
 
 <body>
-    <div class="flex-container">
-        <img
-          style="width: 70px"
-          src="https://th.bing.com/th?id=OIP.SKrhw7RnzKw-IcMHKmY89QHaE3&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
-          alt=""
-        />
+    <div class="image">
+        <img style="width: 70px"
+            src="https://th.bing.com/th?id=OIP.SKrhw7RnzKw-IcMHKmY89QHaE3&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+            alt="" />
         <h2>As melhores guitarras</h2>
-      </div>
+    </div>
 
-      <div class="navBar">
+    <div class="navBar">
         <div><a href="index.html">Início</a></div>
-        <div><a href="historia">História</a></div>                                                      
+        <div><a href="historia.html">História</a></div>
         <div><a href="contato.html">Guitarras</a></div>
         <div><a href=""></a></div>
     </div>
 
 
-    <div class="flex-container">
+<div class="flex-container">
 
-        <div>
-            <img src="https://th.bing.com/th/id/R.39d5b9b9bb67caa956e10c6339b121f0?rik=SQUtLI17gWhCNw&pid=ImgRaw&r=0" width="110px" alt="">
-       <button><h2>Guitarra Fender strato</h2></button>
-        </div>
-
-        <div>
-            <img src="https://th.bing.com/th/id/R.ea7f4de83a48423d4a768cc2144b55df?rik=Y2fB%2bU6O7Kld0w&riu=http%3a%2f%2fmedias.audiofanzine.com%2fimages%2fthumbs3%2ffender-custom-shop-time-machine-67-telecaster-closet-classic-29967.jpg&ehk=JeGAdMZ7PSHP9p6CXoW%2b1PjRUgC%2fbIvg6%2bJxv4SVB9E%3d&risl=&pid=ImgRaw&r=0" width="100px" alt="">
-            <button><h2>Guitarra Fender bege</h2></button>
+        <div class="flex-container-guitar">
+            <img  src="https://th.bing.com/th/id/R.39d5b9b9bb67caa956e10c6339b121f0?rik=SQUtLI17gWhCNw&pid=ImgRaw&r=0"alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
         </div>
 
-        <div>
-            <img src="https://th.bing.com/th/id/OIP.tzMC7Mu57FZ1Em-dEVPWjQHaLG?w=127&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100px" alt="">
-            <button><h2>Guitarra Fender preta</h2></button>
+        <div class="flex-container-guitar">
+            <img src="https://th.bing.com/th/id/R.ea7f4de83a48423d4a768cc2144b55df?rik=Y2fB%2bU6O7Kld0w&riu=http%3a%2f%2fmedias.audiofanzine.com%2fimages%2fthumbs3%2ffender-custom-shop-time-machine-67-telecaster-closet-classic-29967.jpg&ehk=JeGAdMZ7PSHP9p6CXoW%2b1PjRUgC%2fbIvg6%2bJxv4SVB9E%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
         </div>
-        <div>
-            <img src="https://th.bing.com/th/id/OIP.cgRHbhZPP9Tl_FCTeA5NAAHaLG?w=129&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100px" alt="">
-            <button><h2>Guitarra preta</h2></button>
+
+        <div class="flex-container-guitar">
+            <img src="https://th.bing.com/th/id/OIP.tzMC7Mu57FZ1Em-dEVPWjQHaLG?w=127&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
         </div>
-        <div>
-            <img src="https://th.bing.com/th/id/OIP.W7ivpiVVA4E5FzzquvniQQHaLG?w=127&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100px" alt="">
-            <button><h2>Guitarra escudo  branco</h2></button>
+        <div class="flex-container-guitar">
+            <img src="https://th.bing.com/th/id/OIP.cgRHbhZPP9Tl_FCTeA5NAAHaLG?w=129&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                 alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
         </div>
-        <div>
-            <img src="https://guitars.azureedge.net/aza/user/gear/1960-fender-jazzmaster-black-refin-1P8rUW5.jpg?maxwidth=500" width="100px" alt="">
-            <button><h2>Guitarra escudo pers. </h2></button>
+        <div class="flex-container-guitar">
+            <img src="https://th.bing.com/th/id/OIP.W7ivpiVVA4E5FzzquvniQQHaLG?w=127&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                 alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
+        </div>
+        <div class="flex-container-guitar">
+            <img src="https://guitars.azureedge.net/aza/user/gear/1960-fender-jazzmaster-black-refin-1P8rUW5.jpg?maxwidth=500"
+                 alt="">
+            <button>
+                <h2>R$700</h2>
+            </button>
         </div>
 
     </div>
-</head>
-<body>
-    
+    </head>
+
+    <body>
